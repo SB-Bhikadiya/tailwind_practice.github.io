@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .ff1{
+    font-family:'Lato', sans-serif;
+    }
+
+    .ff2{
+    font-family:'Oswald', sans-serif;
+    }
+
+    .ff3{
+    font-family:'Source Sans Pro', sans-serif;
+    }
+    
+}

@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Source+Sans+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="tailwind.config.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6a0bc4337c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="box-border">
+    <header class="sm:h-16 xxxs:h-14 grid items-center grid-cols-2">
+      <div class="xs:ms-12 sm:ms-20 xxs:ms-8 xxxs:ms-5 text-3xl text-slate-400">
+        logo
+      </div>
+      <div class="grid grid-cols-4 justify-end items-center">
+        <div class="col-span-3 flex justify-end">
+          <i
+            class="cursor-pointer fa-brands md:mx-4 xs:mx-3 xxs:mx-2 xxxs:mx-1 fa-facebook"
+          ></i>
+          <i
+            class="cursor-pointer fa-brands md:mx-4 xs:mx-3 xxs:mx-2 xxxs:mx-1 fa-twitter"
+          ></i>
+          <i
+            class="cursor-pointer fa-brands md:mx-4 xs:mx-3 xxs:mx-2 xxxs:mx-1 fa-instagram"
+          ></i>
+        </div>
+        <div class="flex justify-end">
+          <button
+            class="relative md:right-8 xs:right-5 xxs:right-3 xxxs:right-2 menubtn"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <nav
+          class="offcanvasmenu fixed left-0 top-0 bg-yellow-50 h-screen xxxs:w-3/6 xs:w-2/6 sm:w-1/4 md:w-1/5 -translate-x-full duration-300"
+        >
+          <div class="closebtn right-3 top-3 cursor-pointer absolute">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </div>
+          <div class="absolute top-12 left-6">
+            <ul>
+              <li class="font-medium py-1">home</li>
+              <li class="font-medium py-1">home</li>
+              <li class="font-medium py-1">home</li>
+              <li class="font-medium py-1">home</li>
+              <li class="font-medium py-1">home</li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- -------------------------------------------------------------------header over------------------------------------------------------------------ -->
+    <main class="">
+      <div class="grid grid-cols-23 sm:grid-rows-1 xxxs:grid-rows-2">
+        <div
+          class="sm:col-span-11 xxxs:col-span-22 sm:order-1 xxxs:order-1 bg-[url('/images/mainimg.jpg')] bg-cover bg-center bg-no-repeat lg:h-screen"
+        ></div>
+        <div
+          class="sm:col-span-11 xxxs:col-span-22 sm:order-2 xxxs:order-3 grid xxxs:mt-5 sm:content-center"
+        >
+          <div class="ms-10 w-10/12">
+            <div
+              class="lg:text-7xl md:text-6xl sm:text-5xl xxxs:text-4xl font-bold tracking-wider ff2"
+            >
+              Hello, I'm John.
+            </div>
+            <div
+              class="lg:text-2xl sm:text-xl mt-5 text-blue-500 tracking-wider"
+            >
+              Graphic Designer
+            </div>
+            <div class="mt-3 text-slate-500 lg:text-lg sm:text-base">
+              Lorem ipsum , consectetur adipisicing elit. Quasi atque sapiente
+              nemo vel consequatur, facilis officiis.
+            </div>
+            <div class="flex mt-10 items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-5 h-5 text-blue-500"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <div class="ms-0.5">
+                Phone:
+                <a href="tel:+918866601854" class="text-blue-500 font-semibold"
+                  >+91 88666 01854</a
+                >
+              </div>
+            </div>
+            <div class="mt-3 items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-5 h-5 text-blue-500 inline"
+              >
+                <path
+                  d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"
+                />
+                <path
+                  d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"
+                />
+              </svg>
+
+              <div class="ms-0.5 inline">
+                Email:
+                <a
+                  href="mailto:sagarbhikadiya2310@gmail.com"
+                  class="text-blue-500 font-semibold"
+                  >sagarbhikadiya2310@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="mt-3 items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-5 h-5 text-blue-500 inline"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <div class="ms-0.5 inline">
+                Address: 1011 Maple Ln New Hyde Park, New York(NY), 11040
+              </div>
+            </div>
+            <div class="flex mt-3 items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-5 h-5 text-blue-500"
+              >
+                <path
+                  d="M12.75 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM7.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM8.25 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM9.75 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM10.5 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM12.75 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM14.25 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 13.5a.75.75 0 100-1.5.75.75 0 000 1.5z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M6.75 2.25A.75.75 0 017.5 3v1.5h9V3A.75.75 0 0118 3v1.5h.75a3 3 0 013 3v11.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V7.5a3 3 0 013-3H6V3a.75.75 0 01.75-.75zm13.5 9a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="ms-0.5">
+                Date of Birth: Oct <span class="ordinal">21st</span> 2002
+              </p>
+            </div>
+            <button class="bg-blue-500 rounded-lg mt-7 ms-3">
+              <div
+                class="flex lg:py-3 lg:px-20 xxxs:py-2 sm:px-12 xxxs:px-8 items-center"
+              >
+                <div
+                  class="text-white tracking-widest sm:text-base lg:text-xl font-semibold"
+                >
+                  Download CV
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-6 h-6 text-white font-semibold ms-2"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          class="sm:col-span-1 bg-blue-500 xxxs:col-span-1 sm:order-3 xxxs:order-2 xxxs:row-span-2"
+        ></div>
+      </div>
+      <!-- -----------------------------------------------------------------intro over------------------------------------------------------------------- -->
+      <div class="xxxs:justify-center s:justify-normal grid">
+        <div class="my-16 grid s:justify-center">
+          <h1
+            class="s:text-center s:text-6xl xxxs:w-80 s:w-auto ff2 font-semibold tracking-wide mb-5 xxxs:text-4xl"
+          >
+            Design and Concept Development
+          </h1>
+          <p class="s:text-center s:mx-auto s:w-[500px] xxxs:w-80 text-xl">
+            Lorem ipsum dolor sit amet consectetur hic, incidunt sequi officia
+            dolores illo nihil odio
+          </p>
+        </div>
+        <!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+        <div>
+          <div
+            class="grid lg:grid-cols-3 lg:grid-rows-2 s:grid-cols-2 s:grid-rows-3 xxxs:grid-cols-1 gap-4 w-9/12 xxxs:ms-2 s:m-auto"
+          >
+            <div class="">
+              <p
+                class="text-blue-500 font-extrabold tracking-wider text-xl my-5 ff2"
+              >
+                Design
+              </p>
+              <ul>
+                <li class="flex items-center my-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Product Mockup</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Branding</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Illustrations</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">UI/UX</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Websites</p>
+                </li>
+              </ul>
+            </div>
+            <div class="">
+              <p
+                class="text-blue-500 font-extrabold tracking-wider text-xl my-5 ff2"
+              >
+                Design
+              </p>
+              <ul>
+                <li class="flex items-center my-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Product Mockup</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Branding</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Illustrations</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">UI/UX</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Websites</p>
+                </li>
+              </ul>
+            </div>
+            <div class="">
+              <p
+                class="text-blue-500 font-extrabold tracking-wider text-xl my-5 ff2"
+              >
+                Design
+              </p>
+              <ul>
+                <li class="flex items-center my-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Product Mockup</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Branding</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Illustrations</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">UI/UX</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Websites</p>
+                </li>
+              </ul>
+            </div>
+            <div class="">
+              <p
+                class="text-blue-500 font-extrabold tracking-wider text-xl my-5 ff2"
+              >
+                Design
+              </p>
+              <ul>
+                <li class="flex items-center my-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Product Mockup</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Branding</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Illustrations</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">UI/UX</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Websites</p>
+                </li>
+              </ul>
+            </div>
+            <div class="">
+              <p
+                class="text-blue-500 font-extrabold tracking-wider text-xl my-5 ff2"
+              >
+                Design
+              </p>
+              <ul>
+                <li class="flex items-center my-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Product Mockup</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Branding</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Illustrations</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">UI/UX</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Websites</p>
+                </li>
+              </ul>
+            </div>
+            <div class="">
+              <p
+                class="text-blue-500 font-extrabold tracking-wider text-xl my-5 ff2"
+              >
+                Design
+              </p>
+              <ul>
+                <li class="flex items-center my-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Product Mockup</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Branding</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Illustrations</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">UI/UX</p>
+                </li>
+                <li class="flex items-center my-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5 text-slate-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-lg">Websites</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------ -->
+      </div>
+      <!-- --------------------------------------------------------------features over------------------------------------------------------------------- -->
+      <div class="bg-zinc-800 mt-20">
+        <div class="grid justify-center">
+          <p class="font-extrabold text-white text-6xl ff2 text-center mt-10">
+            My Works
+          </p>
+          <p
+            class="s:w-[500px] text-center text-slate-400 ff3 italic mt-5 tracking-wider font-semibold"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            itaque incidunt tempore aut vero laboriosam est blitiis iure iste,
+            optio excepturi tempora corrupti expedita molestias ipsa
+          </p>
+        </div>
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------ -->
+        <div>
+          <div
+            class="grid lg:grid-cols-3 lg:grid-rows-3 s:grid-cols-2 s:grid-rows-5 xxxs:grid-cols-1 mt-5 mb-20"
+          >
+            <div>
+              <img class="h-full w-full" src="./images/img1.webp" alt="" />
+            </div>
+            <div>
+              <img class="h-full w-full" src="./images/img2.jpg" alt="" />
+            </div>
+            <div>
+              <img class="h-full w-full" src="./images/img3.webp" alt="" />
+            </div>
+            <div>
+              <img class="h-full w-full" src="./images/img4.webp" alt="" />
+            </div>
+            <div>
+              <img class="h-full w-full" src="./images/img5.jpg" alt="" />
+            </div>
+            <div>
+              <img class="h-full w-full" src="./images/img6.webp" alt="" />
+            </div>
+            <div>
+              <img class="h-full w-full" src="./images/img7.webp" alt="" />
+            </div>
+            <div>
+              <img class="h-full w-full" src="./images/img8.webp" alt="" />
+            </div>
+            <div>
+              <img class="h-full w-full" src="./images/img9.webp" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------------- -->
+        <div>
+          <div class="grid s:grid-cols-3 s:justify-normal s:ms-0 xxxs:ms-5">
+            <div class="lg:px-10 md:px-5 xxxs:px-1">
+              <p class="text-white text-lg tracking-widest">MY SKILLS</p>
+              <p class="text-white text-6xl my-2 ff2">Expertise</p>
+              <p class="text-slate-300 mt-6 text-xl">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.unde
+                sapiente non ad delectus corrupti, hic amet fugit? Doloremque
+                facere quia tenetur quam aspernatur.
+              </p>
+              <button
+                class="flex items-center bg-blue-500 text-white rounded-lg px-10 py-3 my-7"
+              >
+                <p class="pe-1 font-semibold">RESUME</p>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5A3.375 3.375 0 006.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0015 2.25h-1.5a2.251 2.251 0 00-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 00-9-9z"
+                    />
+                  </svg>
+                </div>
+              </button>
+            </div>
+
+            <div class="lg:px-10 md:px-5 xxxs:px-1">
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Brand Development & Advertising</p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Direct-Response Marketing</p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Search Marketing: SEO & PPC</p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">
+                  Digital Video & TV, including Super Bowl
+                </p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Streaming & Radio</p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Out-of-Home</p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">
+                  Influencer Marketing: Podcast & YouTube
+                </p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Email Marketing, Design & Dev</p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Social Media (Paid & Organic)</p>
+              </h1>
+            </div>
+            <div class="lg:px-10 md:px-5 xxxs:px-1">
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Website Design & Development</p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Advertising Creative (All Mediums)</p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Identity Design</p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Conversion Rate Optimization</p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Copywriting (Ad, Web, & Product)</p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">
+                  Media Planning & Buying (up to $100MM)
+                </p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Content Strategy & Execution</p>
+              </h1>
+              <h1 class="flex text-slate-300 text-xl">
+                <div class="flex mt-1.5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="inline-block">Business Development</p>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------------- -->
+      </div>
+      <!-- --------------------------------------------------------------my works over------------------------------------------------------------------- -->
+    </main>
+  </body>
+  <script>
+    var menu = document.querySelector(".menubtn");
+    var close = document.querySelector(".closebtn");
+    var canvas = document.querySelector(".offcanvasmenu");
+    var main = document.querySelector(".main");
+
+    menu.addEventListener("click", function () {
+      canvas.classList.add("translate-x-0");
+      canvas.classList.remove("-translate-x-full");
+    });
+
+    close.addEventListener("click", function () {
+      canvas.classList.add("-translate-x-full");
+      canvas.classList.remove("translate-x-0");
+    });
+  </script>
+</html>
